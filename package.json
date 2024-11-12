@@ -1,9 +1,9 @@
 {
   "name": "react-native-exit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "React native exit app package when using RN as a library",
   "description": "React native exit app package",
-  "homepage": "https://github.com/zsajjad/react-native-exit",
+  "homepage": "https://github.com/Furqan001/react-native-exit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "zsajjad",
+  "author": "furqanali",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">= 0.51"
