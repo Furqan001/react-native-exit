@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage       = package['homepage']
   s.platform       = :ios, "7.0"
   s.source         = { :git => "https://github.com/Furqan001/RNExit.git", :tag => "master" }
-  s.source_files   = "*.{h,m}"
+  s.source_files   = "ios/*.{h,m}"
   s.requires_arc   = true
   s.dependency     "React"
 end
