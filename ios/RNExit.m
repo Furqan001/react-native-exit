@@ -81,6 +81,10 @@ RCT_REMAP_METHOD(exitApp,
                                                                 object:nil
                                                               userInfo:sanitizedData];
 
+            if ([navigationExitType isEqualToString:@"LOG"]) {
+                return;
+            }
+
             if ([navigationExitType isEqualToString:@"POP"]) {
                 [[self currentTopViewController] popoverPresentationController];
                 return;
